@@ -1,0 +1,51 @@
+<!--Practical 94: Vertical-align-->
+<!DOCTYPE html>
+<html>
+    <head><title>Vertical-Align</title></head>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight:bold;
+        }
+        .t1{
+            vertical-align: top;
+        }
+        .t2{
+            vertical-align: bottom;
+        }
+        .t3{
+            vertical-align: baseline;
+        }
+        .sub{
+            vertical-align: sub;
+            font-size: 0.6em;
+        }
+        .sup{
+            vertical-align: super;
+            font-size: 0.6em;
+        }
+        .text_top{
+            vertical-align: text-top;
+        }
+        .text_bottom{
+            vertical-align: text-bottom;
+        }
+    </style>
+    <body>
+    <div>
+        <img src="images/1.jpg" height="100" width="175" alt="" style="box-shadow: 2px 2px 2px 2px #333333;">
+        <span class=t1>This is text 1</span><br/>
+        <img src="images/1.jpg" height="100" width="175" alt="" style="box-shadow: 2px 2px 2px 2px #333333;">
+        <span class=t2>This is text 2</span><br/>
+        <img src="images/1.jpg" height="100" width="175" alt="" style="box-shadow: 2px 2px 2px 2px #333333;">
+        <span class=t3>This is text 3</span><br/>
+        <p>CO<span class=sub>2</span></p>
+        <p>(a+b)<span class=sup>2</span></p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo, harum fugit a cupiditate ipsa quasi quam assumenda non earum necessitatibus sequi error dolorem pariatur distinctio quas ad eos similique!
+        <img class="text_top" src="images/1.jpg" height="100" width="175" alt=""><br/>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo, harum fugit a cupiditate ipsa quasi quam assumenda non earum necessitatibus sequi error dolorem pariatur distinctio quas ad eos similique!
+        <img class="text_bottom" src="images/1.jpg" height="100" width="175" alt="">
+
+    </div>
+    </body>
+</html>
